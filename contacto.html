@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/04b850c861.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
     <title>Envios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<div class="grilla">
+<div>
     <nav class="nav">
         <img src="./img/logo sublime_Mesa de trabajo 1.png" width="130px" alt="logo">
         <ul>
@@ -30,21 +32,81 @@
         </ul>
     </nav>
 
-    <section class="primeraSeccion fondo">
-        <container>
-            <form action="">
-                <h2>Contacto</h2>
-                <input type="text" name="nombre" placeholder="Nombre y Apellido">
-                <input type="text" name="Email" placeholder="Dirección">
-                <input type="text" name="telefono" placeholder="Teléfono">
-                <textarea class="formulario" name="mensaje" placeholder="Escriba su comentario"></textarea>
-                <input class="boton" type="button" value="ENVIAR" id="boton">
-            </form>
-        </container>
-    </section>
+    <body>
+<div>
+        <div class=" d-flex justify-content-center  m-0 mt-5 mb-5">
+            <div>
+                <h1 class="mb-4">Contactanos</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Mail de contacto</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Estos datos nunca serán compartidos con otros usuarios.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Mantener iniciada la sesión</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">INGRESAR</button>
+                </form>
+            </div>
+            <div class=" d-flex justify-content-center  m-0 mt-5 mb-5">
+                <h2>Preguntas frecuentes</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                ¿De qué material estan confeccionadas las remeras?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem similique aperiam dicta aliquam. Temporibus iusto est voluptates fugiat cum similique facere tenetur maiores laudantium dolor sint voluptas, id natus amet ab minus quod iste, qui asperiores molestiae dolore. A, aspernatur.</div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Realice una compra, ¿como la recibo?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, repellendus dolor. Error delectus accusantium laudantium quidem similique dolor, ea amet accusamus quos alias, enim obcaecati? Sint placeat velit error repellendus.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                ¿Como funcionan las tazas "Mágicas"?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic non obcaecati ex, eaque quia repellendus fugiat vitae dignissimos adipisci provident!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    </body>
     <footer class="footer">
         <div>
-            <h3>Seguinos en nuestras redes</h3>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-twitter-square"></i>

@@ -15,6 +15,7 @@
         "segundaSeccion segundaSeccion segundaSeccion segundaSeccion"
         "terceraSeccion terceraSeccion terceraSeccion terceraSeccion"
         "cuartaSeccion cuartaSeccion cuartaSeccion cuartaSeccion"
+        "quintaSeccion quintaSeccion quintaSeccion quintaSeccion"
         "footer footer footer footer";
 }
 
@@ -291,6 +292,7 @@
 .fondo {
     background-image: url("../img/sublime.png");
 }
+
 
 /*RESPONSIVE DESING - MEDIA QUERY - MOBILE LAST*/
 
@@ -829,4 +831,14 @@
         margin-top: 40px;
         max-width: 60%;
     }
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<BOOTSTRAP>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.d-flex {
+    display: flex!important;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
