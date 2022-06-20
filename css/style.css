@@ -837,7 +837,7 @@
 /* <<<<<<<<<<<<<<<<<<<<<<BOOTSTRAP>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .d-flex {
-    display: flex!important;
+    display: flex !important;
     flex-direction: column;
     align-content: center;
     align-items: center;
